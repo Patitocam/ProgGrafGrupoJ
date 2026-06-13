@@ -122,20 +122,20 @@ Shader "PostProcess1"
 				half4 finalColor;
 
 				// ase common template code
-				float4 color45 = IsGammaSpace() ? float4(1,1,1,1) : float4(1,1,1,1);
+				float4 color45 = IsGammaSpace() ? float4(1,0,0,1) : float4(1,0,0,1);
+				float2 texCoord12 = i.uv.xy * float2( 1,1 ) + float2( 0,0 );
+				float4 tex2DNode11 = tex2D( _MainTex, texCoord12 );
 				float mulTime53 = _Time.y * 2.0;
 				float time50 = sin( mulTime53 );
 				float2 coords50 = i.uv.xy * 25.43;
 				float2 id50 = 0;
 				float2 uv50 = 0;
 				float voroi50 = voronoi50( coords50, time50, id50, uv50, 0 );
-				float2 texCoord12 = i.uv.xy * float2( 1,1 ) + float2( 0,0 );
-				float4 tex2DNode11 = tex2D( _MainTex, texCoord12 );
-				float4 lerpResult55 = lerp( ( color45 * voroi50 ) , tex2DNode11 , ( 1.0 - voroi50 ));
+				float4 lerpResult55 = lerp( color45 , tex2DNode11 , ( 1.0 - voroi50 ));
 				float mulTime26 = _Time.y * 2.0;
 				float2 texCoord58 = i.uv.xy * float2( 1,1 ) + float2( 0,0 );
 				float smoothstepResult16 = smoothstep( (0.4 + (sin( mulTime26 ) - -1.0) * (0.5 - 0.4) / (1.0 - -1.0)) , (0.6 + (sin( _Time.y ) - -1.0) * (0.7 - 0.6) / (1.0 - -1.0)) , length( ( texCoord58 - _Center ) ));
-				float Vignette57 = (0.6 + (( 1.0 - smoothstepResult16 ) - 0.0) * (1.0 - 0.6) / (1.0 - 0.0));
+				float Vignette57 = (0.0 + (( 1.0 - smoothstepResult16 ) - 0.0) * (1.0 - 0.0) / (1.0 - 0.0));
 				float4 lerpResult44 = lerp( lerpResult55 , tex2DNode11 , Vignette57);
 				
 
@@ -152,7 +152,7 @@ Shader "PostProcess1"
 }
 /*ASEBEGIN
 Version=18900
-100;73;1132;818;3270.727;1148.424;3.544284;True;False
+100;73;726;818;2589.273;219.0508;2.674086;True;False
 Node;AmplifyShaderEditor.SimpleTimeNode;23;-3137.35,1703.993;Inherit;False;1;0;FLOAT;1;False;1;FLOAT;0
 Node;AmplifyShaderEditor.Vector2Node;13;-3093.7,1303.135;Inherit;False;Property;_Center;Center;0;0;Create;True;0;0;0;False;0;False;0.5,0.5;0,0;0;3;FLOAT2;0;FLOAT;1;FLOAT;2
 Node;AmplifyShaderEditor.SimpleTimeNode;26;-3125.811,1470.908;Inherit;False;1;0;FLOAT;2;False;1;FLOAT;0
@@ -166,17 +166,16 @@ Node;AmplifyShaderEditor.LengthOpNode;15;-2708.244,1189.836;Inherit;True;1;0;FLO
 Node;AmplifyShaderEditor.TFHCRemapNode;42;-2647.437,1480.461;Inherit;False;5;0;FLOAT;0;False;1;FLOAT;-1;False;2;FLOAT;1;False;3;FLOAT;0.4;False;4;FLOAT;0.5;False;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleTimeNode;53;-1810.99,-489.1865;Inherit;False;1;0;FLOAT;2;False;1;FLOAT;0
 Node;AmplifyShaderEditor.SmoothstepOpNode;16;-2409.112,1193.839;Inherit;True;3;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;1;False;1;FLOAT;0
-Node;AmplifyShaderEditor.OneMinusNode;19;-2163.89,1193.293;Inherit;True;1;0;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.SinOpNode;54;-1560.005,-486.5589;Inherit;True;1;0;FLOAT;0;False;1;FLOAT;0
-Node;AmplifyShaderEditor.TFHCRemapNode;48;-1957.611,1183.689;Inherit;False;5;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;1;False;3;FLOAT;0.6;False;4;FLOAT;1;False;1;FLOAT;0
-Node;AmplifyShaderEditor.ColorNode;45;-1218.59,-651.5325;Inherit;False;Constant;_Color0;Color 0;1;0;Create;True;0;0;0;False;0;False;1,1,1,1;0,0,0,0;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
-Node;AmplifyShaderEditor.VoronoiNode;50;-1235.433,-446.1121;Inherit;True;0;0;1;0;1;False;1;False;False;4;0;FLOAT2;0,0;False;1;FLOAT;1;False;2;FLOAT;25.43;False;3;FLOAT;0;False;3;FLOAT;0;FLOAT2;1;FLOAT2;2
+Node;AmplifyShaderEditor.OneMinusNode;19;-2163.89,1193.293;Inherit;True;1;0;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.TextureCoordinatesNode;12;-1796.336,-26.55394;Inherit;False;0;-1;2;3;2;SAMPLER2D;;False;0;FLOAT2;1,1;False;1;FLOAT2;0,0;False;5;FLOAT2;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.TemplateShaderPropertyNode;10;-1564.523,-163.9999;Inherit;False;0;0;_MainTex;Shader;False;0;5;SAMPLER2D;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
-Node;AmplifyShaderEditor.OneMinusNode;56;-885.5306,-324.29;Inherit;False;1;0;FLOAT;0;False;1;FLOAT;0
-Node;AmplifyShaderEditor.SimpleMultiplyOpNode;52;-931.7848,-625.3247;Inherit;True;2;2;0;COLOR;0,0,0,0;False;1;FLOAT;0;False;1;COLOR;0
+Node;AmplifyShaderEditor.VoronoiNode;50;-1235.433,-446.1121;Inherit;True;0;0;1;0;1;False;1;False;False;4;0;FLOAT2;0,0;False;1;FLOAT;1;False;2;FLOAT;25.43;False;3;FLOAT;0;False;3;FLOAT;0;FLOAT2;1;FLOAT2;2
+Node;AmplifyShaderEditor.TFHCRemapNode;48;-1957.611,1183.689;Inherit;False;5;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;1;False;3;FLOAT;0;False;4;FLOAT;1;False;1;FLOAT;0
+Node;AmplifyShaderEditor.ColorNode;45;-1218.59,-651.5325;Inherit;False;Constant;_Color0;Color 0;1;0;Create;True;0;0;0;False;0;False;1,0,0,1;0,0,0,0;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.SamplerNode;11;-1305.05,-99.67229;Inherit;True;Property;_TextureSample0;Texture Sample 0;0;0;Create;True;0;0;0;False;0;False;-1;None;None;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.RegisterLocalVarNode;57;-1663.659,1198.313;Inherit;False;Vignette;-1;True;1;0;FLOAT;0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.OneMinusNode;60;-993.7523,-416.3608;Inherit;True;1;0;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.LerpOp;55;-646.6073,-290.6581;Inherit;False;3;0;COLOR;0,0,0,0;False;1;COLOR;0,0,0,0;False;2;FLOAT;0;False;1;COLOR;0
 Node;AmplifyShaderEditor.GetLocalVarNode;59;-557.0099,34.65269;Inherit;False;57;Vignette;1;0;OBJECT;;False;1;FLOAT;0
 Node;AmplifyShaderEditor.LerpOp;44;-269.3687,-105.2928;Inherit;False;3;0;COLOR;0,0,0,0;False;1;COLOR;0,0,0,0;False;2;FLOAT;0;False;1;COLOR;0
@@ -191,22 +190,20 @@ WireConnection;42;0;29;0
 WireConnection;16;0;15;0
 WireConnection;16;1;42;0
 WireConnection;16;2;43;0
-WireConnection;19;0;16;0
 WireConnection;54;0;53;0
-WireConnection;48;0;19;0
+WireConnection;19;0;16;0
 WireConnection;50;1;54;0
-WireConnection;56;0;50;0
-WireConnection;52;0;45;0
-WireConnection;52;1;50;0
+WireConnection;48;0;19;0
 WireConnection;11;0;10;0
 WireConnection;11;1;12;0
 WireConnection;57;0;48;0
-WireConnection;55;0;52;0
+WireConnection;60;0;50;0
+WireConnection;55;0;45;0
 WireConnection;55;1;11;0
-WireConnection;55;2;56;0
+WireConnection;55;2;60;0
 WireConnection;44;0;55;0
 WireConnection;44;1;11;0
 WireConnection;44;2;59;0
 WireConnection;0;0;44;0
 ASEEND*/
-//CHKSM=FA4F52022DA23182E7283050A2CA5EFEE7705034
+//CHKSM=492984734C17333841358B6DFB2F9732756B79A4
