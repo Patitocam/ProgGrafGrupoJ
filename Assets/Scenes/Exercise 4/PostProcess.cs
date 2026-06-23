@@ -1,6 +1,6 @@
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 
 [RequireComponent(typeof(Camera))]
 public class PostProcess : MonoBehaviour
@@ -8,12 +8,17 @@ public class PostProcess : MonoBehaviour
     [SerializeField] private Shader takeDamage;
     [SerializeField] private Shader heal;
     [SerializeField] private Shader drunk;
+
     private Material healMaterial;
     private Material takeDamageMaterial;
     private Material drunkMaterial;
     private Material current;
 
     float timer = 0.5f;
+
+    [SerializeField] private float drunkDuration = 10f;
+    private Coroutine drunkRoutine;
+    private static readonly int VignetteProgressID = Shader.PropertyToID("_VignetteProgress");
 
     private void Awake()
     {
@@ -43,7 +48,10 @@ public class PostProcess : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.D))
         {
             current = drunkMaterial;
-            timer = 10f;
+            timer = drunkDuration;
+
+            if (drunkRoutine != null) StopCoroutine(drunkRoutine);
+            drunkRoutine = StartCoroutine(AnimateVignette());
         }
     }
     private void OnRenderImage(RenderTexture source, RenderTexture destination)
@@ -53,5 +61,24 @@ public class PostProcess : MonoBehaviour
             Graphics.Blit(source, destination, current);
         }
         else Graphics.Blit(source, destination);
+    }
+
+
+    private IEnumerator AnimateVignette()
+    {
+        drunkMaterial.SetFloat(VignetteProgressID, 0f);
+
+        float openDuration = 1f; 
+        float elapsed = 0f;
+
+        while (elapsed < openDuration)
+        {
+            elapsed += Time.deltaTime;
+            float t = Mathf.Clamp01(elapsed / openDuration);
+            drunkMaterial.SetFloat(VignetteProgressID, t);
+            yield return null;
+        }
+
+        drunkMaterial.SetFloat(VignetteProgressID, 1f);
     }
 }
