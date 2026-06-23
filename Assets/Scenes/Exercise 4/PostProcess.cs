@@ -7,8 +7,10 @@ public class PostProcess : MonoBehaviour
 {
     [SerializeField] private Shader takeDamage;
     [SerializeField] private Shader heal;
+    [SerializeField] private Shader drunk;
     private Material healMaterial;
     private Material takeDamageMaterial;
+    private Material drunkMaterial;
     private Material current;
 
     float timer = 0.5f;
@@ -17,6 +19,7 @@ public class PostProcess : MonoBehaviour
     {
         healMaterial = new Material(heal);
         takeDamageMaterial = new Material(takeDamage);
+        drunkMaterial = new Material(drunk);
     }
 
     private void Update()
@@ -30,12 +33,17 @@ public class PostProcess : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.T)) 
         {
             current = takeDamageMaterial;
-            timer = 0.5f;
+            timer = 0.2f;
         }
         if (Input.GetKeyDown(KeyCode.H))
         {
             current = healMaterial;
-            timer = 0.5f;
+            timer = 2f;
+        }
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            current = drunkMaterial;
+            timer = 10f;
         }
     }
     private void OnRenderImage(RenderTexture source, RenderTexture destination)
