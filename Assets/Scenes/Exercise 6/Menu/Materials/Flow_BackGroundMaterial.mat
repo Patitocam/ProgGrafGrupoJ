@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Flow_Shader
+  m_Name: Flow_BackGroundMaterial
   m_Shader: {fileID: 4800000, guid: 586e3fd77094cce42a7df2ff7cbba8ca, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -22,6 +22,10 @@ Material:
     m_TexEnvs:
     - _MainTex:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: eacf77e53356408449fd6241cac29be0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
