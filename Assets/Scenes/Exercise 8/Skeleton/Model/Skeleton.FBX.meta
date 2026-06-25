@@ -1,0 +1,2376 @@
+fileFormatVersion: 2
+guid: 34b69c0b5947e3c4fa7d4dd3caa80fdc
+timeCreated: 1434909421
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Bip01 Footsteps
+    100002: Bone01
+    100004: Bone03
+    100006: head_control
+    100008: shield_control
+    100010: //RootNode
+    100012: Skeleton Head
+    100014: Skeleton HeadNub
+    100016: Skeleton L Calf
+    100018: Skeleton L Clavicle
+    100020: Skeleton L Finger0
+    100022: Skeleton L Finger01
+    100024: Skeleton L Finger02
+    100026: Skeleton L Finger0Nub
+    100028: Skeleton L Finger1
+    100030: Skeleton L Finger11
+    100032: Skeleton L Finger12
+    100034: Skeleton L Finger2
+    100036: Skeleton L Finger21
+    100038: Skeleton L Finger22
+    100040: Skeleton L Finger2Nub
+    100042: Skeleton L Finger3
+    100044: Skeleton L Finger31
+    100046: Skeleton L Finger32
+    100048: Skeleton L Finger3Nub
+    100050: Skeleton L Finger4
+    100052: Skeleton L Finger41
+    100054: Skeleton L Finger42
+    100056: Skeleton L Finger4Nub
+    100058: Skeleton L Foot
+    100060: Skeleton L Forearm
+    100062: Skeleton L Hand
+    100064: Skeleton L Thigh
+    100066: Skeleton L Toe0
+    100068: Skeleton L Toe0Nub
+    100070: Skeleton L UpperArm
+    100072: Skeleton Neck
+    100074: Skeleton Pelvis
+    100076: Skeleton R Calf
+    100078: Skeleton R Clavicle
+    100080: Skeleton R Finger0
+    100082: Skeleton R Finger01
+    100084: Skeleton R Finger02
+    100086: Skeleton R Finger0Nub
+    100088: Skeleton R Finger1
+    100090: Skeleton R Finger11
+    100092: Skeleton R Finger12
+    100094: Skeleton R Finger1Nub
+    100096: Skeleton R Finger2
+    100098: Skeleton R Finger21
+    100100: Skeleton R Finger22
+    100102: Skeleton R Finger2Nub
+    100104: Skeleton R Finger3
+    100106: Skeleton R Finger31
+    100108: Skeleton R Finger32
+    100110: Skeleton R Finger3Nub
+    100112: Skeleton R Finger4
+    100114: Skeleton R Finger41
+    100116: Skeleton R Finger42
+    100118: Skeleton R Finger4Nub
+    100120: Skeleton R Foot
+    100122: Skeleton R Forearm
+    100124: Skeleton R Hand
+    100126: Skeleton R Thigh
+    100128: Skeleton R Toe0
+    100130: Skeleton R Toe0Nub
+    100132: Skeleton R UpperArm
+    100134: Skeleton Spine
+    100136: Skeleton Spine1
+    100138: Skeleton Spine2
+    100140: Skeleton Spine3
+    100142: Skeleton_
+    100144: Skeleton_head
+    100146: Skeleton_mesh
+    100148: SkeletonL Finger1Nub
+    100150: svord_control
+    400000: Bip01 Footsteps
+    400002: Bone01
+    400004: Bone03
+    400006: head_control
+    400008: shield_control
+    400010: //RootNode
+    400012: Skeleton Head
+    400014: Skeleton HeadNub
+    400016: Skeleton L Calf
+    400018: Skeleton L Clavicle
+    400020: Skeleton L Finger0
+    400022: Skeleton L Finger01
+    400024: Skeleton L Finger02
+    400026: Skeleton L Finger0Nub
+    400028: Skeleton L Finger1
+    400030: Skeleton L Finger11
+    400032: Skeleton L Finger12
+    400034: Skeleton L Finger2
+    400036: Skeleton L Finger21
+    400038: Skeleton L Finger22
+    400040: Skeleton L Finger2Nub
+    400042: Skeleton L Finger3
+    400044: Skeleton L Finger31
+    400046: Skeleton L Finger32
+    400048: Skeleton L Finger3Nub
+    400050: Skeleton L Finger4
+    400052: Skeleton L Finger41
+    400054: Skeleton L Finger42
+    400056: Skeleton L Finger4Nub
+    400058: Skeleton L Foot
+    400060: Skeleton L Forearm
+    400062: Skeleton L Hand
+    400064: Skeleton L Thigh
+    400066: Skeleton L Toe0
+    400068: Skeleton L Toe0Nub
+    400070: Skeleton L UpperArm
+    400072: Skeleton Neck
+    400074: Skeleton Pelvis
+    400076: Skeleton R Calf
+    400078: Skeleton R Clavicle
+    400080: Skeleton R Finger0
+    400082: Skeleton R Finger01
+    400084: Skeleton R Finger02
+    400086: Skeleton R Finger0Nub
+    400088: Skeleton R Finger1
+    400090: Skeleton R Finger11
+    400092: Skeleton R Finger12
+    400094: Skeleton R Finger1Nub
+    400096: Skeleton R Finger2
+    400098: Skeleton R Finger21
+    400100: Skeleton R Finger22
+    400102: Skeleton R Finger2Nub
+    400104: Skeleton R Finger3
+    400106: Skeleton R Finger31
+    400108: Skeleton R Finger32
+    400110: Skeleton R Finger3Nub
+    400112: Skeleton R Finger4
+    400114: Skeleton R Finger41
+    400116: Skeleton R Finger42
+    400118: Skeleton R Finger4Nub
+    400120: Skeleton R Foot
+    400122: Skeleton R Forearm
+    400124: Skeleton R Hand
+    400126: Skeleton R Thigh
+    400128: Skeleton R Toe0
+    400130: Skeleton R Toe0Nub
+    400132: Skeleton R UpperArm
+    400134: Skeleton Spine
+    400136: Skeleton Spine1
+    400138: Skeleton Spine2
+    400140: Skeleton Spine3
+    400142: Skeleton_
+    400144: Skeleton_head
+    400146: Skeleton_mesh
+    400148: SkeletonL Finger1Nub
+    400150: svord_control
+    4300000: Skeleton_mesh
+    7400000: Skeleton_idle
+    7400002: Skeleton_attack
+    7400004: Skeleton_walk
+    7400006: Skeleton_damage
+    7400008: Skeleton_cast
+    7400010: Skeleton_idle2_ jump
+    7400012: Skeleton_die
+    9500000: //RootNode
+    13700000: Skeleton_mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Skeleton_idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: shield_control
+        weight: 1
+      - path: Skeleton_
+        weight: 1
+      - path: Skeleton_/Bip01 Footsteps
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton L Thigh
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton L Thigh/Skeleton L
+          Calf
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton L Thigh/Skeleton L
+          Calf/Skeleton L Foot
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton L Thigh/Skeleton L
+          Calf/Skeleton L Foot/Skeleton L Toe0
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton L Thigh/Skeleton L
+          Calf/Skeleton L Foot/Skeleton L Toe0/Skeleton L Toe0Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton R Thigh
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton R Thigh/Skeleton R
+          Calf
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton R Thigh/Skeleton R
+          Calf/Skeleton R Foot
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton R Thigh/Skeleton R
+          Calf/Skeleton R Foot/Skeleton R Toe0
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton R Thigh/Skeleton R
+          Calf/Skeleton R Foot/Skeleton R Toe0/Skeleton R Toe0Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton Head
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton Head/head_control
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton Head/Skeleton HeadNub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Bone03
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger0
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger0/Skeleton L Finger01
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger0/Skeleton L Finger01/Skeleton
+          L Finger02
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger0/Skeleton L Finger01/Skeleton
+          L Finger02/Skeleton L Finger0Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger1
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger1/Skeleton L Finger11
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger1/Skeleton L Finger11/Skeleton
+          L Finger12
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger1/Skeleton L Finger11/Skeleton
+          L Finger12/SkeletonL Finger1Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger2
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger2/Skeleton L Finger21
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger2/Skeleton L Finger21/Skeleton
+          L Finger22
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger2/Skeleton L Finger21/Skeleton
+          L Finger22/Skeleton L Finger2Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger3
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger3/Skeleton L Finger31
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger3/Skeleton L Finger31/Skeleton
+          L Finger32
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger3/Skeleton L Finger31/Skeleton
+          L Finger32/Skeleton L Finger3Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger4
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger4/Skeleton L Finger41
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger4/Skeleton L Finger41/Skeleton
+          L Finger42
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger4/Skeleton L Finger41/Skeleton
+          L Finger42/Skeleton L Finger4Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Bone01
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger0
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger0/Skeleton R Finger01
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger0/Skeleton R Finger01/Skeleton
+          R Finger02
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger0/Skeleton R Finger01/Skeleton
+          R Finger02/Skeleton R Finger0Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger1
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger1/Skeleton R Finger11
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger1/Skeleton R Finger11/Skeleton
+          R Finger12
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger1/Skeleton R Finger11/Skeleton
+          R Finger12/Skeleton R Finger1Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger2
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger2/Skeleton R Finger21
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger2/Skeleton R Finger21/Skeleton
+          R Finger22
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger2/Skeleton R Finger21/Skeleton
+          R Finger22/Skeleton R Finger2Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger3
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger3/Skeleton R Finger31
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger3/Skeleton R Finger31/Skeleton
+          R Finger32
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger3/Skeleton R Finger31/Skeleton
+          R Finger32/Skeleton R Finger3Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger4
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger4/Skeleton R Finger41
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger4/Skeleton R Finger41/Skeleton
+          R Finger42
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger4/Skeleton R Finger41/Skeleton
+          R Finger42/Skeleton R Finger4Nub
+        weight: 1
+      - path: Skeleton_head
+        weight: 1
+      - path: Skeleton_mesh
+        weight: 1
+      - path: svord_control
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Skeleton_attack
+      takeName: Take 001
+      firstFrame: 71
+      lastFrame: 118
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: shield_control
+        weight: 1
+      - path: Skeleton_
+        weight: 1
+      - path: Skeleton_/Bip01 Footsteps
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton L Thigh
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton L Thigh/Skeleton L
+          Calf
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton L Thigh/Skeleton L
+          Calf/Skeleton L Foot
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton L Thigh/Skeleton L
+          Calf/Skeleton L Foot/Skeleton L Toe0
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton L Thigh/Skeleton L
+          Calf/Skeleton L Foot/Skeleton L Toe0/Skeleton L Toe0Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton R Thigh
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton R Thigh/Skeleton R
+          Calf
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton R Thigh/Skeleton R
+          Calf/Skeleton R Foot
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton R Thigh/Skeleton R
+          Calf/Skeleton R Foot/Skeleton R Toe0
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton R Thigh/Skeleton R
+          Calf/Skeleton R Foot/Skeleton R Toe0/Skeleton R Toe0Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton Head
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton Head/head_control
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton Head/Skeleton HeadNub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Bone03
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger0
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger0/Skeleton L Finger01
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger0/Skeleton L Finger01/Skeleton
+          L Finger02
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger0/Skeleton L Finger01/Skeleton
+          L Finger02/Skeleton L Finger0Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger1
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger1/Skeleton L Finger11
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger1/Skeleton L Finger11/Skeleton
+          L Finger12
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger1/Skeleton L Finger11/Skeleton
+          L Finger12/SkeletonL Finger1Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger2
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger2/Skeleton L Finger21
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger2/Skeleton L Finger21/Skeleton
+          L Finger22
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger2/Skeleton L Finger21/Skeleton
+          L Finger22/Skeleton L Finger2Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger3
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger3/Skeleton L Finger31
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger3/Skeleton L Finger31/Skeleton
+          L Finger32
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger3/Skeleton L Finger31/Skeleton
+          L Finger32/Skeleton L Finger3Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger4
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger4/Skeleton L Finger41
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger4/Skeleton L Finger41/Skeleton
+          L Finger42
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger4/Skeleton L Finger41/Skeleton
+          L Finger42/Skeleton L Finger4Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Bone01
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger0
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger0/Skeleton R Finger01
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger0/Skeleton R Finger01/Skeleton
+          R Finger02
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger0/Skeleton R Finger01/Skeleton
+          R Finger02/Skeleton R Finger0Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger1
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger1/Skeleton R Finger11
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger1/Skeleton R Finger11/Skeleton
+          R Finger12
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger1/Skeleton R Finger11/Skeleton
+          R Finger12/Skeleton R Finger1Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger2
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger2/Skeleton R Finger21
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger2/Skeleton R Finger21/Skeleton
+          R Finger22
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger2/Skeleton R Finger21/Skeleton
+          R Finger22/Skeleton R Finger2Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger3
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger3/Skeleton R Finger31
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger3/Skeleton R Finger31/Skeleton
+          R Finger32
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger3/Skeleton R Finger31/Skeleton
+          R Finger32/Skeleton R Finger3Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger4
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger4/Skeleton R Finger41
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger4/Skeleton R Finger41/Skeleton
+          R Finger42
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger4/Skeleton R Finger41/Skeleton
+          R Finger42/Skeleton R Finger4Nub
+        weight: 1
+      - path: Skeleton_head
+        weight: 1
+      - path: Skeleton_mesh
+        weight: 1
+      - path: svord_control
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Skeleton_walk
+      takeName: Take 001
+      firstFrame: 119
+      lastFrame: 141
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: shield_control
+        weight: 1
+      - path: Skeleton_
+        weight: 1
+      - path: Skeleton_/Bip01 Footsteps
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton L Thigh
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton L Thigh/Skeleton L
+          Calf
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton L Thigh/Skeleton L
+          Calf/Skeleton L Foot
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton L Thigh/Skeleton L
+          Calf/Skeleton L Foot/Skeleton L Toe0
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton L Thigh/Skeleton L
+          Calf/Skeleton L Foot/Skeleton L Toe0/Skeleton L Toe0Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton R Thigh
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton R Thigh/Skeleton R
+          Calf
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton R Thigh/Skeleton R
+          Calf/Skeleton R Foot
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton R Thigh/Skeleton R
+          Calf/Skeleton R Foot/Skeleton R Toe0
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton R Thigh/Skeleton R
+          Calf/Skeleton R Foot/Skeleton R Toe0/Skeleton R Toe0Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton Head
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton Head/head_control
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton Head/Skeleton HeadNub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Bone03
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger0
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger0/Skeleton L Finger01
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger0/Skeleton L Finger01/Skeleton
+          L Finger02
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger0/Skeleton L Finger01/Skeleton
+          L Finger02/Skeleton L Finger0Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger1
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger1/Skeleton L Finger11
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger1/Skeleton L Finger11/Skeleton
+          L Finger12
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger1/Skeleton L Finger11/Skeleton
+          L Finger12/SkeletonL Finger1Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger2
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger2/Skeleton L Finger21
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger2/Skeleton L Finger21/Skeleton
+          L Finger22
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger2/Skeleton L Finger21/Skeleton
+          L Finger22/Skeleton L Finger2Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger3
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger3/Skeleton L Finger31
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger3/Skeleton L Finger31/Skeleton
+          L Finger32
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger3/Skeleton L Finger31/Skeleton
+          L Finger32/Skeleton L Finger3Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger4
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger4/Skeleton L Finger41
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger4/Skeleton L Finger41/Skeleton
+          L Finger42
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger4/Skeleton L Finger41/Skeleton
+          L Finger42/Skeleton L Finger4Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Bone01
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger0
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger0/Skeleton R Finger01
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger0/Skeleton R Finger01/Skeleton
+          R Finger02
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger0/Skeleton R Finger01/Skeleton
+          R Finger02/Skeleton R Finger0Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger1
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger1/Skeleton R Finger11
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger1/Skeleton R Finger11/Skeleton
+          R Finger12
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger1/Skeleton R Finger11/Skeleton
+          R Finger12/Skeleton R Finger1Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger2
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger2/Skeleton R Finger21
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger2/Skeleton R Finger21/Skeleton
+          R Finger22
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger2/Skeleton R Finger21/Skeleton
+          R Finger22/Skeleton R Finger2Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger3
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger3/Skeleton R Finger31
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger3/Skeleton R Finger31/Skeleton
+          R Finger32
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger3/Skeleton R Finger31/Skeleton
+          R Finger32/Skeleton R Finger3Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger4
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger4/Skeleton R Finger41
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger4/Skeleton R Finger41/Skeleton
+          R Finger42
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger4/Skeleton R Finger41/Skeleton
+          R Finger42/Skeleton R Finger4Nub
+        weight: 1
+      - path: Skeleton_head
+        weight: 1
+      - path: Skeleton_mesh
+        weight: 1
+      - path: svord_control
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Skeleton_damage
+      takeName: Take 001
+      firstFrame: 142
+      lastFrame: 186
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: shield_control
+        weight: 1
+      - path: Skeleton_
+        weight: 1
+      - path: Skeleton_/Bip01 Footsteps
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton L Thigh
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton L Thigh/Skeleton L
+          Calf
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton L Thigh/Skeleton L
+          Calf/Skeleton L Foot
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton L Thigh/Skeleton L
+          Calf/Skeleton L Foot/Skeleton L Toe0
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton L Thigh/Skeleton L
+          Calf/Skeleton L Foot/Skeleton L Toe0/Skeleton L Toe0Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton R Thigh
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton R Thigh/Skeleton R
+          Calf
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton R Thigh/Skeleton R
+          Calf/Skeleton R Foot
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton R Thigh/Skeleton R
+          Calf/Skeleton R Foot/Skeleton R Toe0
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton R Thigh/Skeleton R
+          Calf/Skeleton R Foot/Skeleton R Toe0/Skeleton R Toe0Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton Head
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton Head/head_control
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton Head/Skeleton HeadNub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Bone03
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger0
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger0/Skeleton L Finger01
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger0/Skeleton L Finger01/Skeleton
+          L Finger02
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger0/Skeleton L Finger01/Skeleton
+          L Finger02/Skeleton L Finger0Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger1
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger1/Skeleton L Finger11
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger1/Skeleton L Finger11/Skeleton
+          L Finger12
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger1/Skeleton L Finger11/Skeleton
+          L Finger12/SkeletonL Finger1Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger2
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger2/Skeleton L Finger21
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger2/Skeleton L Finger21/Skeleton
+          L Finger22
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger2/Skeleton L Finger21/Skeleton
+          L Finger22/Skeleton L Finger2Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger3
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger3/Skeleton L Finger31
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger3/Skeleton L Finger31/Skeleton
+          L Finger32
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger3/Skeleton L Finger31/Skeleton
+          L Finger32/Skeleton L Finger3Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger4
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger4/Skeleton L Finger41
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger4/Skeleton L Finger41/Skeleton
+          L Finger42
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger4/Skeleton L Finger41/Skeleton
+          L Finger42/Skeleton L Finger4Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Bone01
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger0
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger0/Skeleton R Finger01
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger0/Skeleton R Finger01/Skeleton
+          R Finger02
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger0/Skeleton R Finger01/Skeleton
+          R Finger02/Skeleton R Finger0Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger1
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger1/Skeleton R Finger11
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger1/Skeleton R Finger11/Skeleton
+          R Finger12
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger1/Skeleton R Finger11/Skeleton
+          R Finger12/Skeleton R Finger1Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger2
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger2/Skeleton R Finger21
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger2/Skeleton R Finger21/Skeleton
+          R Finger22
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger2/Skeleton R Finger21/Skeleton
+          R Finger22/Skeleton R Finger2Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger3
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger3/Skeleton R Finger31
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger3/Skeleton R Finger31/Skeleton
+          R Finger32
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger3/Skeleton R Finger31/Skeleton
+          R Finger32/Skeleton R Finger3Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger4
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger4/Skeleton R Finger41
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger4/Skeleton R Finger41/Skeleton
+          R Finger42
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger4/Skeleton R Finger41/Skeleton
+          R Finger42/Skeleton R Finger4Nub
+        weight: 1
+      - path: Skeleton_head
+        weight: 1
+      - path: Skeleton_mesh
+        weight: 1
+      - path: svord_control
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Skeleton_cast
+      takeName: Take 001
+      firstFrame: 186
+      lastFrame: 246
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: shield_control
+        weight: 1
+      - path: Skeleton_
+        weight: 1
+      - path: Skeleton_/Bip01 Footsteps
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton L Thigh
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton L Thigh/Skeleton L
+          Calf
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton L Thigh/Skeleton L
+          Calf/Skeleton L Foot
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton L Thigh/Skeleton L
+          Calf/Skeleton L Foot/Skeleton L Toe0
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton L Thigh/Skeleton L
+          Calf/Skeleton L Foot/Skeleton L Toe0/Skeleton L Toe0Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton R Thigh
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton R Thigh/Skeleton R
+          Calf
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton R Thigh/Skeleton R
+          Calf/Skeleton R Foot
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton R Thigh/Skeleton R
+          Calf/Skeleton R Foot/Skeleton R Toe0
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton R Thigh/Skeleton R
+          Calf/Skeleton R Foot/Skeleton R Toe0/Skeleton R Toe0Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton Head
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton Head/head_control
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton Head/Skeleton HeadNub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Bone03
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger0
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger0/Skeleton L Finger01
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger0/Skeleton L Finger01/Skeleton
+          L Finger02
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger0/Skeleton L Finger01/Skeleton
+          L Finger02/Skeleton L Finger0Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger1
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger1/Skeleton L Finger11
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger1/Skeleton L Finger11/Skeleton
+          L Finger12
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger1/Skeleton L Finger11/Skeleton
+          L Finger12/SkeletonL Finger1Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger2
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger2/Skeleton L Finger21
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger2/Skeleton L Finger21/Skeleton
+          L Finger22
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger2/Skeleton L Finger21/Skeleton
+          L Finger22/Skeleton L Finger2Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger3
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger3/Skeleton L Finger31
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger3/Skeleton L Finger31/Skeleton
+          L Finger32
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger3/Skeleton L Finger31/Skeleton
+          L Finger32/Skeleton L Finger3Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger4
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger4/Skeleton L Finger41
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger4/Skeleton L Finger41/Skeleton
+          L Finger42
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger4/Skeleton L Finger41/Skeleton
+          L Finger42/Skeleton L Finger4Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Bone01
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger0
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger0/Skeleton R Finger01
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger0/Skeleton R Finger01/Skeleton
+          R Finger02
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger0/Skeleton R Finger01/Skeleton
+          R Finger02/Skeleton R Finger0Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger1
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger1/Skeleton R Finger11
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger1/Skeleton R Finger11/Skeleton
+          R Finger12
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger1/Skeleton R Finger11/Skeleton
+          R Finger12/Skeleton R Finger1Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger2
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger2/Skeleton R Finger21
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger2/Skeleton R Finger21/Skeleton
+          R Finger22
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger2/Skeleton R Finger21/Skeleton
+          R Finger22/Skeleton R Finger2Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger3
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger3/Skeleton R Finger31
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger3/Skeleton R Finger31/Skeleton
+          R Finger32
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger3/Skeleton R Finger31/Skeleton
+          R Finger32/Skeleton R Finger3Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger4
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger4/Skeleton R Finger41
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger4/Skeleton R Finger41/Skeleton
+          R Finger42
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger4/Skeleton R Finger41/Skeleton
+          R Finger42/Skeleton R Finger4Nub
+        weight: 1
+      - path: Skeleton_head
+        weight: 1
+      - path: Skeleton_mesh
+        weight: 1
+      - path: svord_control
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Skeleton_idle2_ jump
+      takeName: Take 001
+      firstFrame: 246
+      lastFrame: 315
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: shield_control
+        weight: 1
+      - path: Skeleton_
+        weight: 1
+      - path: Skeleton_/Bip01 Footsteps
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton L Thigh
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton L Thigh/Skeleton L
+          Calf
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton L Thigh/Skeleton L
+          Calf/Skeleton L Foot
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton L Thigh/Skeleton L
+          Calf/Skeleton L Foot/Skeleton L Toe0
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton L Thigh/Skeleton L
+          Calf/Skeleton L Foot/Skeleton L Toe0/Skeleton L Toe0Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton R Thigh
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton R Thigh/Skeleton R
+          Calf
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton R Thigh/Skeleton R
+          Calf/Skeleton R Foot
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton R Thigh/Skeleton R
+          Calf/Skeleton R Foot/Skeleton R Toe0
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton R Thigh/Skeleton R
+          Calf/Skeleton R Foot/Skeleton R Toe0/Skeleton R Toe0Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton Head
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton Head/head_control
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton Head/Skeleton HeadNub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Bone03
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger0
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger0/Skeleton L Finger01
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger0/Skeleton L Finger01/Skeleton
+          L Finger02
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger0/Skeleton L Finger01/Skeleton
+          L Finger02/Skeleton L Finger0Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger1
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger1/Skeleton L Finger11
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger1/Skeleton L Finger11/Skeleton
+          L Finger12
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger1/Skeleton L Finger11/Skeleton
+          L Finger12/SkeletonL Finger1Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger2
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger2/Skeleton L Finger21
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger2/Skeleton L Finger21/Skeleton
+          L Finger22
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger2/Skeleton L Finger21/Skeleton
+          L Finger22/Skeleton L Finger2Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger3
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger3/Skeleton L Finger31
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger3/Skeleton L Finger31/Skeleton
+          L Finger32
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger3/Skeleton L Finger31/Skeleton
+          L Finger32/Skeleton L Finger3Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger4
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger4/Skeleton L Finger41
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger4/Skeleton L Finger41/Skeleton
+          L Finger42
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger4/Skeleton L Finger41/Skeleton
+          L Finger42/Skeleton L Finger4Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Bone01
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger0
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger0/Skeleton R Finger01
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger0/Skeleton R Finger01/Skeleton
+          R Finger02
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger0/Skeleton R Finger01/Skeleton
+          R Finger02/Skeleton R Finger0Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger1
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger1/Skeleton R Finger11
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger1/Skeleton R Finger11/Skeleton
+          R Finger12
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger1/Skeleton R Finger11/Skeleton
+          R Finger12/Skeleton R Finger1Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger2
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger2/Skeleton R Finger21
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger2/Skeleton R Finger21/Skeleton
+          R Finger22
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger2/Skeleton R Finger21/Skeleton
+          R Finger22/Skeleton R Finger2Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger3
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger3/Skeleton R Finger31
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger3/Skeleton R Finger31/Skeleton
+          R Finger32
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger3/Skeleton R Finger31/Skeleton
+          R Finger32/Skeleton R Finger3Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger4
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger4/Skeleton R Finger41
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger4/Skeleton R Finger41/Skeleton
+          R Finger42
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger4/Skeleton R Finger41/Skeleton
+          R Finger42/Skeleton R Finger4Nub
+        weight: 1
+      - path: Skeleton_head
+        weight: 1
+      - path: Skeleton_mesh
+        weight: 1
+      - path: svord_control
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Skeleton_die
+      takeName: Take 001
+      firstFrame: 315
+      lastFrame: 346
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: shield_control
+        weight: 1
+      - path: Skeleton_
+        weight: 1
+      - path: Skeleton_/Bip01 Footsteps
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton L Thigh
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton L Thigh/Skeleton L
+          Calf
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton L Thigh/Skeleton L
+          Calf/Skeleton L Foot
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton L Thigh/Skeleton L
+          Calf/Skeleton L Foot/Skeleton L Toe0
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton L Thigh/Skeleton L
+          Calf/Skeleton L Foot/Skeleton L Toe0/Skeleton L Toe0Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton R Thigh
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton R Thigh/Skeleton R
+          Calf
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton R Thigh/Skeleton R
+          Calf/Skeleton R Foot
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton R Thigh/Skeleton R
+          Calf/Skeleton R Foot/Skeleton R Toe0
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton R Thigh/Skeleton R
+          Calf/Skeleton R Foot/Skeleton R Toe0/Skeleton R Toe0Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton Head
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton Head/head_control
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton Head/Skeleton HeadNub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Bone03
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger0
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger0/Skeleton L Finger01
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger0/Skeleton L Finger01/Skeleton
+          L Finger02
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger0/Skeleton L Finger01/Skeleton
+          L Finger02/Skeleton L Finger0Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger1
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger1/Skeleton L Finger11
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger1/Skeleton L Finger11/Skeleton
+          L Finger12
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger1/Skeleton L Finger11/Skeleton
+          L Finger12/SkeletonL Finger1Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger2
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger2/Skeleton L Finger21
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger2/Skeleton L Finger21/Skeleton
+          L Finger22
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger2/Skeleton L Finger21/Skeleton
+          L Finger22/Skeleton L Finger2Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger3
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger3/Skeleton L Finger31
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger3/Skeleton L Finger31/Skeleton
+          L Finger32
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger3/Skeleton L Finger31/Skeleton
+          L Finger32/Skeleton L Finger3Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger4
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger4/Skeleton L Finger41
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger4/Skeleton L Finger41/Skeleton
+          L Finger42
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton L Clavicle/Skeleton L UpperArm/Skeleton L
+          Forearm/Skeleton L Hand/Skeleton L Finger4/Skeleton L Finger41/Skeleton
+          L Finger42/Skeleton L Finger4Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Bone01
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger0
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger0/Skeleton R Finger01
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger0/Skeleton R Finger01/Skeleton
+          R Finger02
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger0/Skeleton R Finger01/Skeleton
+          R Finger02/Skeleton R Finger0Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger1
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger1/Skeleton R Finger11
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger1/Skeleton R Finger11/Skeleton
+          R Finger12
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger1/Skeleton R Finger11/Skeleton
+          R Finger12/Skeleton R Finger1Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger2
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger2/Skeleton R Finger21
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger2/Skeleton R Finger21/Skeleton
+          R Finger22
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger2/Skeleton R Finger21/Skeleton
+          R Finger22/Skeleton R Finger2Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger3
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger3/Skeleton R Finger31
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger3/Skeleton R Finger31/Skeleton
+          R Finger32
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger3/Skeleton R Finger31/Skeleton
+          R Finger32/Skeleton R Finger3Nub
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger4
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger4/Skeleton R Finger41
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger4/Skeleton R Finger41/Skeleton
+          R Finger42
+        weight: 1
+      - path: Skeleton_/Skeleton Pelvis/Skeleton Spine/Skeleton Spine1/Skeleton Spine2/Skeleton
+          Spine3/Skeleton Neck/Skeleton R Clavicle/Skeleton R UpperArm/Skeleton R
+          Forearm/Skeleton R Hand/Skeleton R Finger4/Skeleton R Finger41/Skeleton
+          R Finger42/Skeleton R Finger4Nub
+        weight: 1
+      - path: Skeleton_head
+        weight: 1
+      - path: Skeleton_mesh
+        weight: 1
+      - path: svord_control
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
