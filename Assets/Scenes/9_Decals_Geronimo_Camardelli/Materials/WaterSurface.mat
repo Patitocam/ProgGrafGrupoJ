@@ -30,9 +30,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Opacity: 0.5
+    - _Opacity: 0.7
     - __dirty: 0
     m_Colors:
-    - _Color0: {r: 0.60784316, g: 0.78823537, b: 0.80392164, a: 0}
-    - _Velocidad: {r: 0.01, g: 0.01, b: 0, a: 0}
+    - _Color0: {r: 1, g: 1, b: 1, a: 0}
+    - _Color1: {r: 0.6745283, g: 0.92423886, b: 1, a: 0}
+    - _Velocidad: {r: 0.04, g: 0.01, b: 0, a: 0}
   m_BuildTextureStacks: []

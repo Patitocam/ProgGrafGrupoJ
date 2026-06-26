@@ -7,21 +7,21 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Proyector-Overley
-  m_Shader: {fileID: 4800000, guid: 7e6b8a9fbe55e1d45a8d8b06f0f055a7, type: 3}
+  m_Name: M_Esqueleto
+  m_Shader: {fileID: 4800000, guid: fad6ca9e861385441a391c8ae7b0c9c6, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 0
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2000
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _TextureSample0:
-        m_Texture: {fileID: 2800000, guid: e464aaf75316eea44932a0a759c421dc, type: 3}
+        m_Texture: {fileID: 2800000, guid: f0201f5c6fb626849b80650d1995c40c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -30,10 +30,6 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Float0: 0.4
-    - _Opacity: 0.4
-    - __dirty: 1
-    m_Colors:
-    - _Color0: {r: 0.6179245, g: 0.9108732, b: 1, a: 0}
-    - _vELOCIDAD: {r: 0.04, g: 0.01, b: 0, a: 0}
+    - __dirty: 0
+    m_Colors: []
   m_BuildTextureStacks: []
