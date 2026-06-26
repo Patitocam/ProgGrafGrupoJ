@@ -63,7 +63,7 @@ Material:
     - _UseUIAlphaClip: 0
     m_Colors:
     - _Color: {r: 0, g: 0, b: 0, a: 1}
-    - _Color1: {r: 1, g: 1, b: 1, a: 0}
+    - _Color1: {r: 1, g: 1, b: 1, a: 1}
     - _Vector1: {r: 0, g: 0, b: 2, a: 2}
     - _Vector2: {r: 0, g: 1, b: 3.98, a: 2.85}
   m_BuildTextureStacks: []
