@@ -32,7 +32,7 @@ Material:
     m_Floats:
     - _Float0: 0.4
     - _Opacity: 0.4
-    - __dirty: 0
+    - __dirty: 1
     m_Colors:
     - _Color0: {r: 0.6179245, g: 0.9108732, b: 1, a: 0}
     - _vELOCIDAD: {r: 0.04, g: 0.01, b: 0, a: 0}
