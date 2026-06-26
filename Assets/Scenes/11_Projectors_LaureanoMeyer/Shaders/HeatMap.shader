@@ -100,9 +100,9 @@ Shader "HeatMap"
 				#ifdef ASE_NEEDS_FRAG_WORLD_POSITION
 				float3 WorldPosition = i.worldPos;
 				#endif
-				float4 color3 = IsGammaSpace() ? float4(0.2923006,0.6698113,0.04107335,0) : float4(0.0694844,0.4061945,0.003180103,0);
+				float4 color3 = IsGammaSpace() ? float4(0.2044715,0.4528302,0.03631186,0) : float4(0.03451511,0.1729492,0.002810515,0);
 				float4 color4 = IsGammaSpace() ? float4(0.3867925,0,0,0) : float4(0.1237993,0,0,0);
-				float4 lerpResult2 = lerp( color3 , color4 , ( i.ase_texcoord1.xyz.x * 3.0 ));
+				float4 lerpResult2 = lerp( color3 , color4 , ( i.ase_texcoord1.xyz.x * 2.5 ));
 				
 				
 				finalColor = lerpResult2;
@@ -117,11 +117,11 @@ Shader "HeatMap"
 }
 /*ASEBEGIN
 Version=18900
-199;73;1207;741;1352.895;72.00983;1;True;False
+221;73;1328;678;1524.188;477.5361;1;True;False
 Node;AmplifyShaderEditor.PosVertexDataNode;1;-1049.181,261.1704;Inherit;False;0;0;5;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.ColorNode;4;-1106.575,-27.49825;Inherit;False;Constant;_Color1;Color 1;0;0;Create;True;0;0;0;False;0;False;0.3867925,0,0,0;0,0,0,0;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
-Node;AmplifyShaderEditor.ColorNode;3;-1121.45,-265.4676;Inherit;False;Constant;_Color0;Color 0;0;0;Create;True;0;0;0;False;0;False;0.2923006,0.6698113,0.04107335,0;0,0,0,0;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
-Node;AmplifyShaderEditor.SimpleMultiplyOpNode;8;-830.296,238.7039;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;3;False;1;FLOAT;0
+Node;AmplifyShaderEditor.ColorNode;3;-1121.45,-265.4676;Inherit;False;Constant;_Color0;Color 0;0;0;Create;True;0;0;0;False;0;False;0.2044715,0.4528302,0.03631186,0;0,0,0,0;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+Node;AmplifyShaderEditor.SimpleMultiplyOpNode;8;-830.296,238.7039;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;2.5;False;1;FLOAT;0
 Node;AmplifyShaderEditor.LerpOp;2;-701.287,147.2602;Inherit;False;3;0;COLOR;0,0,0,0;False;1;COLOR;0,0,0,0;False;2;FLOAT;0;False;1;COLOR;0
 Node;AmplifyShaderEditor.TemplateMultiPassMasterNode;5;-157.4067,123.9423;Float;False;True;-1;2;ASEMaterialInspector;100;1;HeatMap;0770190933193b94aaa3065e307002fa;True;Unlit;0;0;Unlit;2;False;True;0;1;False;-1;0;False;-1;0;1;False;-1;0;False;-1;True;0;False;-1;0;False;-1;False;False;False;False;False;False;False;False;False;True;0;False;-1;False;True;0;False;-1;False;True;True;True;True;True;0;False;-1;False;False;False;False;False;False;False;True;False;255;False;-1;255;False;-1;255;False;-1;7;False;-1;1;False;-1;1;False;-1;1;False;-1;7;False;-1;1;False;-1;1;False;-1;1;False;-1;False;True;1;False;-1;True;3;False;-1;True;True;0;False;-1;0;False;-1;True;1;RenderType=Opaque=RenderType;True;2;0;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;True;1;LightMode=ForwardBase;False;0;;0;0;Standard;1;Vertex Position,InvertActionOnDeselection;1;0;1;True;False;;False;0
 WireConnection;8;0;1;1
@@ -130,4 +130,4 @@ WireConnection;2;1;4;0
 WireConnection;2;2;8;0
 WireConnection;5;0;2;0
 ASEEND*/
-//CHKSM=E403B1449E060E1DBC252B43B0A9E52516CF4F96
+//CHKSM=449DB669059D793F781577AFB663F9F56CCA05AE
